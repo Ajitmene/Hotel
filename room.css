@@ -56,13 +56,15 @@
     font-weight: normal;
     margin: 20px;
 }
-#title p{
-    font-size: 20px;
-    font-weight: bold;
-    display: inline;
+#title a{
+    display:inline;
+    color:rgb(176, 176, 176);
+    text-decoration: none;
+    font-size: 20px;   
 }
 #title span{
     font-size: 20px;
+    color: black;
 }
 .room-card{
     border: 1px solid rgb(226, 222, 222);

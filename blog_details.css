@@ -64,13 +64,17 @@
     font-size:40px;
 }
 
-#title p{
+#title a{
     display:inline;
-    color:gray;
+    color:rgb(137, 137, 137);
+    text-decoration: none;
+    font-size: 20px;
+    
 }
 
 #title span{
-    color:#acacac;
+    color:#000000;
+    font-size: 20px;
 }
 
 
