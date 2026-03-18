@@ -65,12 +65,12 @@
 #head{
     width:70%;
     color:white;
-    padding:40px 0px;
+    padding: 35px 0px;
     margin-bottom: 20px;
 }
 
 #head h1{
-    font-size:85px;
+    font-size:80px;
     font-weight:800;
     margin-bottom:20px;
 }
@@ -156,7 +156,7 @@ button{
 #content h2{
     font-size: 40px;
     font-weight: normal;
-    margin: 20px 20px;
+    margin: 20px 5px;
 }
 #content p{
     line-height: 25px;
@@ -468,6 +468,7 @@ color: chocolate;
 
 #footer3 button{
     width:50px;
+    height: 41px;
     border:none;
     background:chocolate;
     color:white;
