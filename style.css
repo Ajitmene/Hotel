@@ -1,0 +1,856 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/* 
+=================
+     Top-bar
+================= */
+#top-bar{
+    display:none;
+}
+
+
+
+/* 
+=================
+     Header
+================= */
+#header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px;
+}
+/* LOGO */
+#logo a{
+    text-decoration:none;
+    font-weight:bold;
+    font-size:28px;
+    color:black;
+}
+
+#logo span{
+    color:coral;
+}
+
+#nav-links{
+    display:none;
+}
+
+#search{
+    display:none;
+}
+
+
+
+/* 
+=================
+   Hero section
+================= */
+#hero{
+    background-image:url(lobby3.jpg);
+    background-size:cover;
+    background-position:center;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    margin-bottom: 70px;
+}
+/* HERO TEXT */
+#head{
+    width:70%;
+    color:white;
+    padding:40px 0px;
+    margin-bottom: 20px;
+}
+
+#head h1{
+    font-size:85px;
+    font-weight:800;
+    margin-bottom:20px;
+}
+
+#head p{
+    font-size:16px;
+    margin-bottom:30px;
+}
+
+#head a{
+    font-size:16px;
+    text-decoration:none;
+    color:white;
+}
+
+/* 
+=================
+   Form section
+================= */
+#div{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    padding:20px 10px;
+}
+
+#form{
+    width:100%;
+    max-width:350px;
+    margin:auto;
+    padding:25px;
+    background:#fff;
+    border-radius:8px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+#form h3{
+    margin-bottom:20px;
+}
+
+.form-group{
+    margin-bottom:15px;
+}
+
+.form-group label{
+    display:block;
+    margin-bottom:5px;
+}
+
+.form-group input,
+.form-group select{
+    width:100%;
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    background:#dfa974;
+    color:white;
+    border:none;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+
+/* 
+=================
+   About section
+================= */
+#content{
+    text-align: center;
+    padding: 50px;
+}
+#content p{
+    color: black;
+}
+#content span{
+    color: chocolate;
+}
+#content h2{
+    font-size: 40px;
+    font-weight: normal;
+    margin: 20px 20px;
+}
+#content p{
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 35px;
+}
+#content a {
+    text-decoration: none;
+}
+
+.about-1 img{
+    width: 100%;
+    padding: 20px;
+}
+
+/* 
+=================
+ Service section
+================= */
+#service{
+    text-align: center;
+    padding: 4px;
+}
+#service span{
+    color: chocolate;
+
+}
+#service h2{
+    font-size: 40px;
+    font-weight: normal;
+    margin: 25px;
+}
+.service-2{
+    margin: 4px;
+    height: 270px;
+    padding: 40px;
+}
+.service-2 p{
+    color: black;
+}
+.service-2 h4{
+    font-size: 30px;
+    font-weight: normal;
+    margin: 20px;
+}
+
+/* 
+=================
+   room section
+================= */
+.rooms-section{
+    padding:20px;
+}
+
+/* ROOM CARD */
+
+#room-card1{
+    background-image: url(room-1.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 2px groove white;
+    height: 500px;
+    margin-bottom: 20px;
+}
+#room-card2{
+    background-image: url(room-2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 2px groove white;
+    height: 500px;
+    margin-bottom: 20px;
+
+}
+#room-card3{
+    background-image: url(room-3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 2px groove white;
+    height: 500px;
+    margin-bottom: 20px;
+}
+#room-card4{
+    background-image: url(rooms-4.png);
+    background-size: 100% 100%;
+    border: 2px groove white;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-bottom: 20px;
+}
+/* CONTENT */
+
+.room-content{
+    margin-top: 150px;
+    padding:18px;
+}
+
+.room-content h3{
+    font-size:40px;
+    color: white;
+    margin-bottom:20px;
+}
+
+/* PRICE */
+
+.price{
+    display:flex;
+    align-items:center;
+    gap:5px;
+    margin-bottom:12px;
+}
+
+.price span{
+    font-size:40px;
+    color:coral;
+    font-weight:bold;
+}
+
+.price p{
+    font-size:16px;
+    color:white;
+    margin-bottom: 10px;
+}
+
+/* DETAILS */
+
+.room-details{
+    list-style:none;
+    margin-bottom:15px;
+}
+
+.room-details li{
+    font-size:16px;
+    margin-bottom:5px;
+    color: white;
+    line-height: 20px;
+}
+
+/* BUTTON */
+
+.room-btn{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    font-size:16px;
+}
+
+
+
+#Testimonials{
+    text-align: center;
+    padding: 20px;
+    padding-top: 30px ;
+}
+
+#test1 span{
+    color: chocolate;
+}
+
+#test1 h2{
+    font-size: 40px;
+    font-weight: normal;
+    margin: 30px 30px;
+}
+#test2 p{
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    color: black;
+}
+#test2 span{
+    color: chocolate;
+}
+#author{
+    display: inline;
+    color: black;
+}
+
+
+#news{
+    padding: 30px;
+    text-align: center;
+}
+#news1 p{
+color: chocolate;
+}
+#news1 h2{
+    font-size: 40px;
+    font-weight: normal;
+    margin: 25px;
+}
+.news2{
+    margin: 5px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding-top: 280px;
+    padding-left: 10px;
+    text-align: left;
+    border-radius: 5px;
+
+}
+.news2:hover{
+    filter:brightness(70%);
+}
+.img1{
+    background-image: url(news1.png);
+}
+.img2{
+    background-image: url(news2.png);
+}
+.img3{
+    background-image: url(news3.png);
+}
+.img4{
+    background-image: url(room-4.jpg);
+}
+.img5{
+    background-image: url(news5.png);
+}
+.news2 span{
+    color: white;
+    background-color: rgb(215, 175, 100);
+    padding: 5px;
+    border-radius: 5px;
+}
+.news2 h3 , p{
+    color: white;
+    margin-top: 15px;
+}
+
+
+
+/* FOOTER */
+#footer{
+    background: rgb(36,36,75);
+    padding:40px ;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+/* LOGO */
+#footer1 h3{
+    font-size:50px;
+    font-weight:900;
+    display:inline;
+}
+
+#footer1 span{
+    color:chocolate;
+    font-size:50px;
+}
+
+/* TEXT */
+#footer p{
+    color:rgb(197, 194, 194);;
+    font-size:16px;
+    line-height:24px;
+}
+
+/* SOCIAL ICON */
+#social-icon{
+    display:flex;
+    gap:12px;
+    margin-top:20px;
+}
+
+#social-icon i{
+    border:1px solid rgb(197, 194, 194);;
+    width:40px;
+    height:40px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+#social-icon i:hover{
+    background:chocolate;
+    border-color:chocolate;
+}
+
+/* TITLES */
+#footer2 span,
+#footer3 span{
+    color:chocolate;
+    font-size:20px;
+    font-weight:600;
+}
+
+#footer2 , #footer3{
+    margin-top: 20px;
+}
+/* NEWSLETTER */
+#footer3 form{
+    display:flex;
+    margin-top:30px;
+}
+
+#footer3 input{
+    width:80%;
+    height:40px;
+    border:none;
+    padding-left:10px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#footer3 button{
+    width:50px;
+    border:none;
+    background:chocolate;
+    color:white;
+    border-radius: 0px 5px 5px 0px;
+}
+/* LINKS */
+#links{
+    margin-top: 40px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;   /* center horizontally */
+    padding: 0;
+}
+#links a{
+    text-decoration:none;
+    color:rgb(197, 194, 194);
+    font-size:16px;
+}
+#links a:hover{
+    color:white;
+}
+#last-child{
+    text-align: center;
+    margin-top: 20px;
+}
+/* COPYRIGHT */
+#last-child:last-child{
+    border-top:1px solid rgba(255,255,255,0.1);
+    font-size:20px;
+}
+
+
+/* 
+=================
+   Tablet view
+================= */
+@media (min-width:768px){
+#hero{
+    flex-direction:column;
+}
+
+#head{
+    width:75%;
+}
+.about-1{
+    display: flex;
+}
+
+.about-1 div{ 
+    width:50%;
+}
+
+#service-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.service-2{
+    /* border: 2px groove red; */
+    width: 48%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#room-card1{
+    width: 48%;
+}
+#room-card2{
+    width: 48%;
+}
+#room-card3{
+    width: 48%;
+}
+#room-card4{
+    width: 48%;
+}
+#box{
+    height: 250px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+#box1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.news2{
+    width: 48%;
+}
+}
+
+
+  /* 
+=================
+   Desktop view
+================= */
+@media (min-width:1200px){
+#side-bar{
+    display: none;
+}
+/* 
+=================
+     Top-bar
+================= */
+#top-bar{
+    height:42px;
+    border:1px solid rgb(255,221,176);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:white;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:3000;
+    padding:0 5%;
+}
+#left-bar span{
+    margin-right:40px;
+    font-size:14px;
+    color:#555;
+}
+
+#left-bar{
+    margin-left: 20px;
+}
+
+#left-bar i{
+    color:#d4a373;
+    margin-left:6px;
+}
+
+#right-bar{
+    display:flex;
+    align-items:center;
+    gap:40px;
+    margin-right: 100px;
+}
+
+/* social icons */
+#icons i{
+    margin-right:10px;
+    cursor:pointer;
+}
+
+/* booking button */
+#button a{
+    padding:12px 18px;
+    text-decoration:none;
+    color:white;
+    background:orange;
+    font-size:14px;
+}
+
+/* language */
+#language{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    font-size:14px;
+    cursor:pointer;
+    position:relative;
+}
+
+#language img{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+}
+
+/* dropdown */
+.dropdown{
+    position:absolute;
+    top:30px;
+    left:0;
+    background:white;
+    list-style:none;
+    border:1px solid #ddd;
+    display:none;
+    width:60px;
+}
+
+.dropdown li{
+    padding:6px 10px;
+    cursor:pointer;
+}
+
+.dropdown li:hover{
+    background:#f2f2f2;
+}
+
+/* hover effect */
+#language:hover .dropdown{
+    display:block;
+}
+/* 
+=================
+   Header part
+================= */
+
+#header{
+    padding:20px 5%;
+    background-color:rgb(254, 247, 239);
+    position:sticky;
+    top:42px;   /* same as top-bar height */
+    width:100%;
+    z-index:1000;
+}
+
+#logo a{
+    font-size:40px;
+}
+
+#nav-links{
+    display:flex;
+    gap:25px;
+    list-style:none;
+    margin-left: 500px;
+}
+
+#nav-links a{
+    display:block;
+    text-decoration:none;
+    font-size:15px;
+    font-weight:600;
+    color:black;
+}
+
+#search{
+    display:block;
+}
+/* main menu */
+
+.menu-item{
+    position:relative;
+    list-style:none;
+}
+
+/* dropdown menu */
+
+.dropdown{
+    position:absolute;
+    top:100%;
+    left:0;
+    background:white;
+    width:150px;
+    display:none;
+    border:1px solid #eee;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+/* dropdown links */
+
+.dropdown li{
+    list-style:none;
+}
+
+.dropdown li a{
+    display:block;
+    padding:10px 15px;
+    text-decoration:none;
+    color:black;
+}
+
+.dropdown li a:hover{
+    background:#f5f5f5;
+}
+
+/* show dropdown */
+
+.menu-item:hover .dropdown{
+    display:block;
+}
+/* 
+=================
+     Hero part
+================= */
+#hero{
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+#head{
+    padding: 50px;
+    padding-top: 200px;
+    align-self: center;
+    height: 100vh;
+    width: 65%;
+    color: white;
+}
+
+#head h1{
+    font-size:90px;
+}
+
+#head p{
+    margin-bottom: 40px;
+}
+
+#div{
+    width:50%;
+    padding:100px 7%;
+}
+
+#about{
+    display: flex;
+    padding: 2px;
+    gap: 2px;
+}
+#content{
+    width: 50%;
+}
+#content p{
+    color: black;
+}
+
+.service-2{
+    width: 30%;
+}
+.service-2 p{
+    color: black;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#room-card1{
+    width: 23%;
+}
+#room-card2{
+    width: 23%;
+}
+#room-card3{
+    width: 23%;
+}
+#room-card4{
+    width: 23%;
+}
+#box{
+    height: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+
+.news2{
+    width: 30%;
+}
+.img4{
+    width: 63%;
+}
+.img5{
+    width: 30%;
+}
+
+#foot{
+    display:flex;
+    justify-content:space-evenly;
+    gap:270px;
+}
+
+#footer1,
+#footer2,
+#footer3{
+    width:30%;
+}
+
+#footer3 form input{
+    margin-top: 20px;
+    width: 40%;
+}
+#footer3 button{
+    margin-top: 20px;
+}
+#last-child:last-child{
+    width:100%;
+}
+}
