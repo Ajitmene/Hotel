@@ -49,8 +49,8 @@
 
 
 #about-us{
-    /* border: 2px groove green; */
     text-align: center;
+    padding: 15px;
 }
 #title-part h2{
     font-size: 40px;
